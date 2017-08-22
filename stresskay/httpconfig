@@ -1,0 +1,12 @@
+[request1]
+weight = 1
+# only support GET、POST
+method = GET
+url = http://newtest.linkdood.cn:5000?AcCount=008613521541300&Mark=com&NetType=WIFI&UID=1&Version=0.4.0&MacAddr=Mac&CookieT=CookieT&Device=and-mi&LoginType=1&Local=zh
+
+[request2]
+weight = 2
+method = GET
+contenttype = text/plain
+url = http://newtest.linkdood.cn:5000?AcCount=00861352153240&Mark=com&NetType=WIFI&UID=1&Version=0.8.0&MacAddr=Mac&CookieT=CookieT&Device=ios&LoginType=1&Local=zh
+#postdata = a=1&b=2
